@@ -11,8 +11,8 @@ import { openDatabase, saveTextToIndexedDB, getTextFromIndexedDB, deleteTextFrom
 
 export default function Home() {
   const [messages, setMessages] = useState([
-    { sender: 'bot', text: 'Hello! How can I assist you today?', type: 'answer' },
-    { sender: 'bot', text: `Deep Learning (DL) is a subset of machine learning that involves neural networks with multiple layers. It has significantly impacted various fields, including medical imaging, natural language processing, and computer vision. Deep Learning models have the ability to learn complex patterns and representations in data, which has led to advancements in automation, data analysis, and predictions. In the medical field, DL is used for tasks such as brain biomarker interpretation, medical image segmentation, and cancer prediction through histology images. It also improves cybersecurity through threat detection models that incorporate domain knowledge. Moreover, DL techniques are being studied for their interpretability, with methods developed to better explain predictions and learning processes to users. Future research in DL may focus on enhancing model interpretability, incorporating domain-specific knowledge to improve model accuracy, and tackling challenges like adversarial attacks. These advancements hold the potential to drive further technological and societal growth.`, type: 'answer' }, 
+    { sender: 'bot', text: 'Entrevoir (sample) Can you summarize the key skills of the candidate based on his work experience in the manufacturing industry?', type: 'answer' },
+    { sender: 'bot', text: `40% of the work experience of the candidate is in manufacturing industry. Out of 10 years, the candidate has worked in various roles within the manufacturing industry but to three companies and two countries. The candidate has a great communication skill, technology business management and procurement skills. Please let entrevoir know if you need to deep dive on any specific project that the candidate had been responsible for... waiting...`, type: 'answer' }, 
   ]);
 
   const [input, setInput] = useState('');
