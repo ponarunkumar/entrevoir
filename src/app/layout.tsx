@@ -6,8 +6,8 @@ import 'font-awesome/css/font-awesome.min.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NextGen o1",
-  description: "NextGen o1",
+  title: "Entrevoir",
+  description: "Share, Listen, Interact and Tune (SLIT)",
 };
 
 export default function RootLayout({
