@@ -23,4 +23,11 @@ How does it work?
 
 ### 🚀 Powered by AI/ML API
 
+Text To Speech Model #g1_aura-stella-en Provider deepgram
+
+
 ## 📦 Run Locally
+
+npm run dev
+
+node app.js
