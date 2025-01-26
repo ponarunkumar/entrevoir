@@ -22,7 +22,8 @@ export async function POST(request: Request) {
         'Authorization': `Bearer ${apiKey}`, // Replace with your actual API key
       },
       body: JSON.stringify({
-        model: '#g1_aura-asteria-en',  // Replace with your specific model if needed
+        //model: '#g1_aura-asteria-en',  // Replace with your specific model if needed
+        model: '#g1_aura-stella-en',
         text: text
       })
     });
